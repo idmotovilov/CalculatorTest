@@ -10,7 +10,6 @@ import java.util.Scanner;
 @Setter
 class ConsoleReader {
     private Scanner scanner = new Scanner(System.in);
-
     String readLine() {
         return scanner.nextLine();
     }
